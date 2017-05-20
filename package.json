@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "@shivanitomar/sampleapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-sslify": "^1.2.0",
+    "generate-password": "^1.3.0",
+    "jsonwebtoken": "^7.4.0",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.0.1",
+    "nodemon": "^1.11.0",
+    "tv4": "^1.3.0",
+    "tv4-formats": "^3.0.0"
+  }
+}
